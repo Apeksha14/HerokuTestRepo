@@ -1,0 +1,298 @@
+body{
+	margin:0;
+	padding:0;
+	line-height: 150%;	
+	background-image: url("../images/seamless_paper_texture.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header
+{
+	margin:0;
+	background-color: #ffffff;
+	padding:0;
+	border:2px solid;
+	border-color: #cccccc;
+	font-family: "Georgia","Times New Roman",Times,serif;
+
+}
+
+h1{
+	padding:28px;
+	margin:0;
+	margin-right: 450px;
+	margin-left: 255px;
+	width: 280px;
+	color:#ffffff;
+	background-color: #4aaaa5;
+}
+h2{
+	color: #20B2AA;
+	padding:0px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+}
+a{
+	padding:5px;
+	margin-right: 5px;
+	font-size: 20 px;
+	color:#777777;
+	text-decoration: none;
+
+
+}
+hr{
+	border:1px solid;
+	border-color: #cccccc;}
+
+.wrapper{
+	position: relative;
+	float:right ;
+	margin-top:-60px;
+	margin-right: 200px;
+	width:200px
+	padding:20px;
+
+}
+
+
+#bio-image{
+	float:left;
+	height:200px;
+	width:200px;
+	margin-right: 20px;
+	padding-top:20px;
+}
+
+#main-bio{
+
+	float:left;
+	width:650px;
+	padding:20px;
+	margin-top:50px;
+	margin-left:250px;
+	background-color: #ffffff;
+	color:#777777;
+	border:1px solid #dddddd;
+	
+}
+
+
+#connect-bio{
+	position: relative;
+	float:left;
+	width:270px;
+	height:200px;
+	padding:20px;
+	margin:50px;
+	background-color: #ffffff;
+	color:#777777;
+	border: 1px solid #dddddd;
+ 	}
+
+#push{
+	height:140px;	
+}
+
+#git-image,
+#link-image,
+#so-image
+{
+	height:75px;
+	width:75px;
+	padding:5px;
+}
+footer{
+	position: relative;
+	overflow: auto;
+	clear: both;
+	padding:28px;
+	border-top: 8px solid #20B2AA;
+	background-color: #666666;
+	text-align: center;
+	height: 35px;
+	font-size: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+h3{
+	
+	color: #20B2AA;
+	font-family: "Georgia","Times New Roman",Times,serif;
+
+}
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:10px;
+}
+
+#name,#emailid{
+	width: 650px;
+	height: 20px;
+	color:#cccccc;
+	font-size: 15px;
+}
+
+#msg{
+	color:#cccccc;
+	font-size: 15px;
+	border:1px solid #cccccc;
+
+}
+
+#sub{
+	background-color: #4aaaa5;
+	border:none;
+	width: 100px;
+	height: 35px;
+	color:#fff;
+    font-size:15px;
+    margin-top: 20px;
+    }
+
+ h4{
+	background-color:#4aaaa5;
+	color:#ffffff;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	margin:-80px;
+	height:50px;
+	width: 230px;
+}
+#hangman
+{	
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+	z-index: 1;
+}
+#rpggame{
+
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+	z-index: 1;
+	padding-left: 20px;
+	margin-left: 40px;
+
+}
+#trivia{
+	
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+	z-index: 1;
+
+}
+#rutgers{
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+	z-index: 1;
+	padding-left: 20px;
+	margin-left: 40px;
+}
+#rockpaper{
+	
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+	z-index: 1;
+}
+#hangmandiv
+{
+	
+	position: relative;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 120px;
+	z-index: 2;
+	
+}
+#rpggamediv{
+	
+	position: relative;
+	width: 230px;
+	height: 40px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 120px;
+	z-index: 2;
+	padding-left: 20px;
+	margin-left: 60px;
+	
+}
+#triviadiv{
+
+	position: relative;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 120px;
+	z-index: 2;
+
+}
+#rutgersdiv{
+
+	position: relative;
+	width: 230pX;
+	height: 40px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 120px;
+	z-index: 2;
+	padding-left: 20px;
+	margin-left: 60px;
+
+	
+}
+#rockpaperdiv{
+	
+	position: relative;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 120px;
+	z-index: 2;
+	
+}
+#portfolio1{
+
+	float:left;
+}
+
+#portfolio2{
+	float: left;
+
+}
+
+#portfolio3{
+	margin-top: 20px;
+	overflow: auto;
+	clear: both;
+	float:left;
+}
+
+#portfolio4{
+	float: left;
+	margin-top: 20px;
+}
+
+#portfolio5{
+	margin-top: 20px;
+	overflow: auto;
+	clear: both;
+	float:left;
+}
+
